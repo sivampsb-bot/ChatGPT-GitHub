@@ -3,10 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChatGPT GitHub Test</title>
+  <meta name="description" content="DY TOY'S Cuddalore – battery cars, bikes, jeeps, RC toys, educational toys and gifts for children.">
+  <meta name="theme-color" content="#173f9e">
+  <title>DY TOY'S | Cuddalore Toy Store</title>
+  <style>
+    :root{--blue:#173f9e;--navy:#081b4d;--sky:#38bdf8;--yellow:#ffd84d;--red:#ef4444;--ink:#172033;--muted:#5d6678;--cream:#fffaf0;--white:#fff;--shadow:0 18px 50px rgba(8,27,77,.14)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+    .topbar{background:var(--navy);color:#fff;font-size:.9rem;text-align:center;padding:8px}.topbar strong{color:var(--yellow)}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(23,63,158,.08)}nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;color:var(--blue);font-size:1.3rem}.logo{display:grid;place-items:center;width:45px;height:45px;border-radius:14px;background:linear-gradient(135deg,var(--yellow),#ff9d2e);font-size:1.55rem;box-shadow:0 8px 20px rgba(255,170,30,.3)}.links{display:flex;align-items:center;gap:24px;font-weight:700;font-size:.94rem}.links a:hover{color:var(--blue)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border-radius:999px;font-weight:850;transition:.2s;box-shadow:0 8px 24px rgba(23,63,158,.16)}.btn:hover{transform:translateY(-2px)}.btn-primary{color:#fff;background:linear-gradient(135deg,var(--blue),#2563eb)}.btn-yellow{background:var(--yellow);color:var(--navy)}.btn-outline{background:#fff;border:2px solid rgba(23,63,158,.15);color:var(--blue);box-shadow:none}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#eaf6ff 0%,#fff8dd 55%,#ffe8e8 100%);padding:84px 0 74px}.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;filter:blur(4px);opacity:.55}.hero:before{width:300px;height:300px;background:#b9e8ff;right:-70px;top:-90px}.hero:after{width:220px;height:220px;background:#ffe37e;left:-80px;bottom:-90px}.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:56px}.eyebrow{display:inline-flex;gap:8px;align-items:center;background:#fff;color:var(--blue);border:1px solid rgba(23,63,158,.12);border-radius:999px;padding:7px 13px;font-weight:850;font-size:.83rem;text-transform:uppercase;letter-spacing:.08em}.hero h1{font-size:clamp(2.6rem,6vw,5.2rem);line-height:.98;margin:21px 0;color:var(--navy);letter-spacing:-.055em}.hero h1 span{color:var(--blue)}.lead{max-width:650px;color:var(--muted);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:29px}.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:30px;font-weight:750;font-size:.9rem;color:#3f4a5f}.trust span{display:flex;align-items:center;gap:7px}
+    .toy-stage{min-height:430px;display:grid;place-items:center;position:relative}.toy-card{width:min(410px,100%);aspect-ratio:1/1;border-radius:42px;background:linear-gradient(145deg,#173f9e,#08266f);box-shadow:0 35px 80px rgba(8,38,111,.3);display:grid;place-items:center;position:relative;overflow:hidden}.toy-card:before{content:"";position:absolute;width:260px;height:260px;border:40px solid rgba(255,255,255,.08);border-radius:50%}.jeep{font-size:clamp(7rem,16vw,11rem);filter:drop-shadow(0 22px 18px rgba(0,0,0,.25));transform:rotate(-5deg)}.tag{position:absolute;background:#fff;padding:10px 15px;border-radius:16px;box-shadow:var(--shadow);font-weight:900}.tag.one{top:26px;right:18px;color:var(--red)}.tag.two{bottom:27px;left:18px;color:var(--blue)}
+    section{padding:82px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 42px}.kicker{color:var(--blue);font-size:.82rem;font-weight:900;text-transform:uppercase;letter-spacing:.12em}.section-head h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;margin:10px 0 13px;color:var(--navy);letter-spacing:-.035em}.section-head p{color:var(--muted);margin:0}
+    .categories{background:#fff}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.product{border:1px solid #e9edf5;border-radius:25px;padding:26px;background:linear-gradient(155deg,#fff,#f7faff);transition:.22s}.product:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:#cfe0ff}.icon{width:66px;height:66px;border-radius:20px;display:grid;place-items:center;font-size:2rem;background:#e9f4ff;margin-bottom:20px}.product:nth-child(2n) .icon{background:#fff3bf}.product:nth-child(3n) .icon{background:#ffe7e7}.product h3{margin:0 0 8px;color:var(--navy);font-size:1.16rem}.product p{margin:0;color:var(--muted);font-size:.94rem}
+    .why{background:var(--navy);color:#fff}.why .section-head h2,.why .section-head p{color:#fff}.why .section-head p{opacity:.72}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.benefit{padding:26px;border-radius:23px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1)}.benefit b{display:block;margin:13px 0 5px;font-size:1.05rem}.benefit p{font-size:.9rem;opacity:.72;margin:0}
+    .visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}.visit-card{border-radius:30px;padding:38px;background:#fff;box-shadow:var(--shadow)}.visit-card.blue{background:linear-gradient(145deg,var(--blue),var(--navy));color:#fff}.visit-card h2{font-size:2rem;line-height:1.1;margin:0 0 17px}.detail{display:flex;gap:12px;margin:17px 0}.detail span:first-child{font-size:1.25rem}.detail p{margin:0}.detail small{opacity:.68}.cta-panel{display:flex;flex-direction:column;justify-content:center;background:linear-gradient(145deg,#fff5c5,#ffe178)}.cta-panel p{color:#5c4b00}.cta-panel .actions{margin-top:18px}
+    footer{background:#06133b;color:#fff;padding:34px 0 90px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-row p{margin:0;opacity:.66;font-size:.9rem}
+    .mobile-bar{display:none;position:fixed;z-index:30;left:12px;right:12px;bottom:12px;background:#fff;padding:9px;border-radius:18px;box-shadow:0 12px 40px rgba(8,27,77,.25);grid-template-columns:1fr 1fr;gap:8px}.mobile-bar .btn{padding:12px 10px;font-size:.88rem}
+    @media(max-width:850px){.links a:not(.btn){display:none}.hero{padding:58px 0}.hero-grid,.visit-grid{grid-template-columns:1fr}.toy-stage{min-height:340px}.toy-card{max-width:350px}.grid{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.wrap{width:min(100% - 26px,1120px)}nav{min-height:64px}.brand{font-size:1.08rem}.links .btn{display:none}.hero h1{font-size:3rem}.actions .btn{width:100%}.toy-stage{min-height:300px}.toy-card{max-width:300px;border-radius:32px}.grid,.benefits{grid-template-columns:1fr}section{padding:65px 0}.visit-card{padding:27px}.footer-row{align-items:flex-start;flex-direction:column}.mobile-bar{display:grid}}
+  </style>
 </head>
 <body>
-  <h1>Hello, Siva!</h1>
-  <p>This sample file is ready for code review.</p>
+  <div class="topbar">🎉 Big smiles start here — visit <strong>DY TOY'S, Cuddalore</strong></div>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#home"><span class="logo">🧸</span><span>DY TOY'S</span></a>
+      <div class="links"><a href="#toys">Our Toys</a><a href="#why">Why Us</a><a href="#visit">Visit Store</a><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20I%20want%20to%20know%20about%20your%20toys." target="_blank" rel="noopener">WhatsApp Us</a></div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">⭐ Cuddalore's Toy Destination</span>
+          <h1>Big toys.<br><span>Bigger smiles.</span></h1>
+          <p class="lead">Discover exciting battery cars, bikes, jeeps, RC toys, educational toys, dolls, soft toys and perfect gifts for every little celebration.</p>
+          <div class="actions"><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20please%20share%20available%20toys%20and%20prices." target="_blank" rel="noopener">💬 Check Stock on WhatsApp</a><a class="btn btn-outline" href="#toys">Explore Toys ↓</a></div>
+          <div class="trust"><span>✓ Friendly guidance</span><span>✓ Exciting selection</span><span>✓ Cuddalore service</span></div>
+        </div>
+        <div class="toy-stage" aria-label="Featured kids ride-on jeep">
+          <div class="toy-card"><span class="tag one">NEW STOCK</span><div class="jeep">🚙</div><span class="tag two">Ride • Play • Smile</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="categories" id="toys">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Something for every child</span><h2>Explore our toy world</h2><p>From first rides to creative learning, find a gift that matches their age, interest and imagination.</p></div>
+        <div class="grid">
+          <article class="product"><div class="icon">🚙</div><h3>Battery Ride-ons</h3><p>Cars, jeeps, bikes and scooters for thrilling little adventures.</p></article>
+          <article class="product"><div class="icon">🏎️</div><h3>Remote Control Toys</h3><p>RC cars, stunt vehicles and exciting engineering machines.</p></article>
+          <article class="product"><div class="icon">🧠</div><h3>Educational Toys</h3><p>Playful learning, puzzles, building sets and skill-building fun.</p></article>
+          <article class="product"><div class="icon">🧸</div><h3>Soft Toys</h3><p>Cuddly companions and lovable gifts for every occasion.</p></article>
+          <article class="product"><div class="icon">🚲</div><h3>Tricycles & Walkers</h3><p>Colourful early rides designed for growing little explorers.</p></article>
+          <article class="product"><div class="icon">🎁</div><h3>Gifts & More</h3><p>Dolls, die-cast vehicles, action toys and birthday surprises.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="why" id="why">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker" style="color:#8ddcff">Why families choose us</span><h2>Toy shopping made joyful</h2><p>Clear guidance, exciting choices and helpful local service—all under one roof.</p></div>
+        <div class="benefits">
+          <div class="benefit"><span>🎯</span><b>Right Toy, Right Age</b><p>Tell us the child's age and budget; we'll help shortlist options.</p></div>
+          <div class="benefit"><span>✨</span><b>Trending Collection</b><p>Explore popular ride-ons, RC toys, gifts and fresh arrivals.</p></div>
+          <div class="benefit"><span>🤝</span><b>Friendly Support</b><p>Ask questions before buying and understand key features clearly.</p></div>
+          <div class="benefit"><span>📍</span><b>Local in Cuddalore</b><p>Visit our Pudupalayam store and see selected toys in person.</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="visit">
+      <div class="wrap visit-grid">
+        <div class="visit-card blue">
+          <h2>Visit DY TOY'S</h2>
+          <div class="detail"><span>📍</span><p><small>Store address</small><br><strong>No. 21 Appavu Street, Pudupalayam, Cuddalore</strong></p></div>
+          <div class="detail"><span>📞</span><p><small>Call or WhatsApp</small><br><strong>+91 81488 73436</strong></p></div>
+          <div class="detail"><span>🛍️</span><p><small>Service area</small><br><strong>All Cuddalore areas</strong></p></div>
+        </div>
+        <div class="visit-card cta-panel">
+          <span class="kicker">Need help choosing?</span><h2>Tell us the child's age and your budget.</h2><p>We'll help you find suitable options and share current availability directly on WhatsApp.</p>
+          <div class="actions"><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20I%20need%20a%20toy%20recommendation." target="_blank" rel="noopener">💬 WhatsApp</a><a class="btn btn-outline" href="https://maps.app.goo.gl/bv1Nstf8V2BgDkZd7" target="_blank" rel="noopener">📍 Directions</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-row"><a class="brand" href="#home" style="color:white"><span class="logo">🧸</span><span>DY TOY'S</span></a><p>© <span id="year"></span> DY TOY'S, Cuddalore. Made for happy little moments.</p></div></footer>
+  <div class="mobile-bar"><a class="btn btn-yellow" href="tel:+918148873436">📞 Call Now</a><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20I%20want%20to%20know%20about%20your%20toys." target="_blank" rel="noopener">💬 WhatsApp</a></div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
