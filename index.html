@@ -18,10 +18,14 @@
     .categories{background:#fff}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.product{border:1px solid #e9edf5;border-radius:25px;padding:26px;background:linear-gradient(155deg,#fff,#f7faff);transition:.22s}.product:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:#cfe0ff}.icon{width:66px;height:66px;border-radius:20px;display:grid;place-items:center;font-size:2rem;background:#e9f4ff;margin-bottom:20px}.product:nth-child(2n) .icon{background:#fff3bf}.product:nth-child(3n) .icon{background:#ffe7e7}.product h3{margin:0 0 8px;color:var(--navy);font-size:1.16rem}.product p{margin:0;color:var(--muted);font-size:.94rem}
     .why{background:var(--navy);color:#fff}.why .section-head h2,.why .section-head p{color:#fff}.why .section-head p{opacity:.72}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.benefit{padding:26px;border-radius:23px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1)}.benefit b{display:block;margin:13px 0 5px;font-size:1.05rem}.benefit p{font-size:.9rem;opacity:.72;margin:0}
     .visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}.visit-card{border-radius:30px;padding:38px;background:#fff;box-shadow:var(--shadow)}.visit-card.blue{background:linear-gradient(145deg,var(--blue),var(--navy));color:#fff}.visit-card h2{font-size:2rem;line-height:1.1;margin:0 0 17px}.detail{display:flex;gap:12px;margin:17px 0}.detail span:first-child{font-size:1.25rem}.detail p{margin:0}.detail small{opacity:.68}.cta-panel{display:flex;flex-direction:column;justify-content:center;background:linear-gradient(145deg,#fff5c5,#ffe178)}.cta-panel p{color:#5c4b00}.cta-panel .actions{margin-top:18px}
+    .featured{background:linear-gradient(180deg,#fff 0%,#f2f7ff 100%)}.featured-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.featured-card{overflow:hidden;border-radius:26px;background:#fff;box-shadow:var(--shadow);border:1px solid #e7edf7}.toy-art{height:220px;display:grid;place-items:center;font-size:6rem;background:linear-gradient(145deg,#dff3ff,#fff1bf);position:relative}.toy-art:after{content:"FEATURED";position:absolute;top:16px;left:16px;background:var(--red);color:#fff;border-radius:999px;padding:6px 10px;font-size:.68rem;font-weight:900;letter-spacing:.08em}.featured-copy{padding:24px}.featured-copy h3{margin:0 0 6px;color:var(--navy)}.featured-copy p{margin:0 0 17px;color:var(--muted);font-size:.92rem}.mini-link{color:var(--blue);font-weight:850}
+    .guide{background:#fff}.guide-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.age-card{padding:25px;border-radius:22px;border:1px solid #e6ebf3;background:#fff}.age-card strong{display:block;color:var(--blue);font-size:1.1rem;margin-bottom:7px}.age-card p{margin:0;color:var(--muted);font-size:.9rem}
+    .gallery-strip{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:180px 180px;gap:14px}.gallery-tile{border-radius:23px;display:grid;place-items:center;text-align:center;padding:20px;color:#fff;font-weight:900;font-size:1.05rem;background:linear-gradient(145deg,#173f9e,#38bdf8)}.gallery-tile:first-child{grid-row:1/3;font-size:1.3rem;background:linear-gradient(145deg,#081b4d,#173f9e)}.gallery-tile:nth-child(3){background:linear-gradient(145deg,#ffb025,#ef4444)}.gallery-tile:nth-child(4){background:linear-gradient(145deg,#7c3aed,#2563eb)}.gallery-emoji{display:block;font-size:4rem;margin-bottom:8px}
+    .enquiry{background:linear-gradient(135deg,#eaf6ff,#fff8dd)}.enquiry-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center}.enquiry-copy h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.05;color:var(--navy);margin:10px 0 16px}.enquiry-copy p{color:var(--muted)}.form-card{background:#fff;border-radius:28px;padding:30px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-weight:800;font-size:.85rem;color:var(--navy)}.field input,.field select,.field textarea{width:100%;border:1px solid #dce3ef;border-radius:13px;padding:13px 14px;font:inherit;background:#fbfdff;color:var(--ink)}.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid rgba(56,189,248,.2);border-color:var(--sky)}.field textarea{min-height:90px;resize:vertical}.form-card .btn{border:0;cursor:pointer;margin-top:4px}
     footer{background:#06133b;color:#fff;padding:34px 0 90px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-row p{margin:0;opacity:.66;font-size:.9rem}
     .mobile-bar{display:none;position:fixed;z-index:30;left:12px;right:12px;bottom:12px;background:#fff;padding:9px;border-radius:18px;box-shadow:0 12px 40px rgba(8,27,77,.25);grid-template-columns:1fr 1fr;gap:8px}.mobile-bar .btn{padding:12px 10px;font-size:.88rem}
-    @media(max-width:850px){.links a:not(.btn){display:none}.hero{padding:58px 0}.hero-grid,.visit-grid{grid-template-columns:1fr}.toy-stage{min-height:340px}.toy-card{max-width:350px}.grid{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:560px){.wrap{width:min(100% - 26px,1120px)}nav{min-height:64px}.brand{font-size:1.08rem}.links .btn{display:none}.hero h1{font-size:3rem}.actions .btn{width:100%}.toy-stage{min-height:300px}.toy-card{max-width:300px;border-radius:32px}.grid,.benefits{grid-template-columns:1fr}section{padding:65px 0}.visit-card{padding:27px}.footer-row{align-items:flex-start;flex-direction:column}.mobile-bar{display:grid}}
+    @media(max-width:850px){.featured-grid{grid-template-columns:1fr 1fr}.guide-grid{grid-template-columns:1fr 1fr}.enquiry-grid{grid-template-columns:1fr}.gallery-strip{grid-template-columns:1fr 1fr;grid-template-rows:auto}.gallery-tile:first-child{grid-row:auto;grid-column:1/-1}.gallery-tile{min-height:180px}.links a:not(.btn){display:none}.hero{padding:58px 0}.hero-grid,.visit-grid{grid-template-columns:1fr}.toy-stage{min-height:340px}.toy-card{max-width:350px}.grid{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.featured-grid,.guide-grid,.form-grid,.gallery-strip{grid-template-columns:1fr}.field.full,.gallery-tile:first-child{grid-column:auto}.toy-art{height:190px}.wrap{width:min(100% - 26px,1120px)}nav{min-height:64px}.brand{font-size:1.08rem}.links .btn{display:none}.hero h1{font-size:3rem}.actions .btn{width:100%}.toy-stage{min-height:300px}.toy-card{max-width:300px;border-radius:32px}.grid,.benefits{grid-template-columns:1fr}section{padding:65px 0}.visit-card{padding:27px}.footer-row{align-items:flex-start;flex-direction:column}.mobile-bar{display:grid}}
   </style>
 </head>
 <body>
@@ -29,7 +33,7 @@
   <header>
     <nav class="wrap">
       <a class="brand" href="#home"><span class="logo">🧸</span><span>DY TOY'S</span></a>
-      <div class="links"><a href="#toys">Our Toys</a><a href="#why">Why Us</a><a href="#visit">Visit Store</a><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20I%20want%20to%20know%20about%20your%20toys." target="_blank" rel="noopener">WhatsApp Us</a></div>
+      <div class="links"><a href="#toys">Our Toys</a><a href="#featured">Featured</a><a href="#enquiry">Enquire</a><a href="#visit">Visit</a><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20I%20want%20to%20know%20about%20your%20toys." target="_blank" rel="noopener">WhatsApp Us</a></div>
     </nav>
   </header>
   <main>
@@ -60,6 +64,33 @@
         </div>
       </div>
     </section>
+    <section class="featured" id="featured">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Featured collections</span><h2>Popular ways to play</h2><p>Explore customer favourites and message us for current models, colours and prices.</p></div>
+        <div class="featured-grid">
+          <article class="featured-card"><div class="toy-art">🚙</div><div class="featured-copy"><h3>Premium Ride-on Jeeps</h3><p>Bold styling, exciting features and options for different age groups.</p><a class="mini-link" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20please%20share%20your%20ride-on%20jeep%20models." target="_blank" rel="noopener">Ask for models →</a></div></article>
+          <article class="featured-card"><div class="toy-art">🏎️</div><div class="featured-copy"><h3>RC Action Collection</h3><p>Fast cars, stunt vehicles and engineering toys for action-loving kids.</p><a class="mini-link" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20please%20share%20your%20RC%20toy%20collection." target="_blank" rel="noopener">Ask for models →</a></div></article>
+          <article class="featured-card"><div class="toy-art">🧩</div><div class="featured-copy"><h3>Learning & Building</h3><p>Puzzles, construction sets and playful learning for curious minds.</p><a class="mini-link" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20please%20share%20educational%20toys." target="_blank" rel="noopener">Ask for options →</a></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="guide">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Quick buying guide</span><h2>Choose toys by age</h2><p>Use this as a starting point, then contact us for a recommendation suited to the child.</p></div>
+        <div class="guide-grid">
+          <div class="age-card"><strong>1–2 years</strong><p>Walkers, simple ride-ons, musical and sensory toys.</p></div>
+          <div class="age-card"><strong>3–5 years</strong><p>Battery vehicles, pretend-play sets and beginner puzzles.</p></div>
+          <div class="age-card"><strong>6–8 years</strong><p>RC toys, building sets and creative learning activities.</p></div>
+          <div class="age-card"><strong>9+ years</strong><p>Advanced RC models, strategy games and hobby toys.</p></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Inside our toy world</span><h2>Collections worth exploring</h2><p>Real product photos and delivery moments can be added here as your gallery grows.</p></div>
+        <div class="gallery-strip"><div class="gallery-tile"><span><span class="gallery-emoji">🏬</span>DY TOY'S Cuddalore</span></div><div class="gallery-tile"><span><span class="gallery-emoji">🚗</span>Ride-ons</span></div><div class="gallery-tile"><span><span class="gallery-emoji">🎁</span>Gift Picks</span></div><div class="gallery-tile"><span><span class="gallery-emoji">🧸</span>New Stock</span></div></div>
+      </div>
+    </section>
     <section class="why" id="why">
       <div class="wrap">
         <div class="section-head"><span class="kicker" style="color:#8ddcff">Why families choose us</span><h2>Toy shopping made joyful</h2><p>Clear guidance, exciting choices and helpful local service—all under one roof.</p></div>
@@ -69,6 +100,23 @@
           <div class="benefit"><span>🤝</span><b>Friendly Support</b><p>Ask questions before buying and understand key features clearly.</p></div>
           <div class="benefit"><span>📍</span><b>Local in Cuddalore</b><p>Visit our Pudupalayam store and see selected toys in person.</p></div>
         </div>
+      </div>
+    </section>
+    <section class="enquiry" id="enquiry">
+      <div class="wrap enquiry-grid">
+        <div class="enquiry-copy"><span class="kicker">Personal toy finder</span><h2>Tell us what you need.</h2><p>Share the child's age, your budget and preferred toy. The form prepares a WhatsApp message so you can ask DY TOY'S directly.</p><div class="trust"><span>✓ No payment required</span><span>✓ Ask before visiting</span></div></div>
+        <form class="form-card" id="toyForm">
+          <div class="form-grid">
+            <div class="field"><label for="customerName">Your name</label><input id="customerName" name="customerName" required placeholder="Enter your name"></div>
+            <div class="field"><label for="childAge">Child's age</label><input id="childAge" name="childAge" required placeholder="Example: 5 years"></div>
+            <div class="field"><label for="budget">Budget</label><select id="budget" name="budget" required><option value="">Select budget</option><option>Below ₹500</option><option>₹500–₹1,500</option><option>₹1,500–₹5,000</option><option>₹5,000–₹10,000</option><option>Above ₹10,000</option></select></div>
+            <div class="field"><label for="toyType">Toy category</label><select id="toyType" name="toyType" required><option value="">Select category</option><option>Battery Car / Jeep / Bike</option><option>Remote Control Toy</option><option>Educational Toy</option><option>Soft Toy</option><option>Tricycle / Walker</option><option>Birthday Gift</option><option>Need a recommendation</option></select></div>
+            <div class="field"><label for="colour">Preferred colour</label><input id="colour" name="colour" placeholder="Any colour or preference"></div>
+            <div class="field"><label for="area">Delivery area</label><input id="area" name="area" placeholder="Area in Cuddalore"></div>
+            <div class="field full"><label for="notes">Additional requirements</label><textarea id="notes" name="notes" placeholder="Features, occasion or anything else"></textarea></div>
+            <div class="field full"><button class="btn btn-primary" type="submit">💬 Send Enquiry via WhatsApp</button></div>
+          </div>
+        </form>
       </div>
     </section>
     <section id="visit">
@@ -88,6 +136,24 @@
   </main>
   <footer><div class="wrap footer-row"><a class="brand" href="#home" style="color:white"><span class="logo">🧸</span><span>DY TOY'S</span></a><p>© <span id="year"></span> DY TOY'S, Cuddalore. Made for happy little moments.</p></div></footer>
   <div class="mobile-bar"><a class="btn btn-yellow" href="tel:+918148873436">📞 Call Now</a><a class="btn btn-primary" href="https://wa.me/918148873436?text=Hi%20DY%20TOY'S%2C%20I%20want%20to%20know%20about%20your%20toys." target="_blank" rel="noopener">💬 WhatsApp</a></div>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent=new Date().getFullYear();
+    document.getElementById('toyForm').addEventListener('submit',function(event){
+      event.preventDefault();
+      var data=new FormData(event.target);
+      var message=[
+        "Hi DY TOY'S, I need help choosing a toy.",
+        "",
+        "Name: "+data.get('customerName'),
+        "Child's age: "+data.get('childAge'),
+        "Budget: "+data.get('budget'),
+        "Category: "+data.get('toyType'),
+        "Preferred colour: "+(data.get('colour')||'Any'),
+        "Delivery area: "+(data.get('area')||'Not specified'),
+        "Additional requirements: "+(data.get('notes')||'None')
+      ].join('\n');
+      window.open('https://wa.me/918148873436?text='+encodeURIComponent(message),'_blank','noopener');
+    });
+  </script>
 </body>
 </html>
