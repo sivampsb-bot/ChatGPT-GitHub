@@ -1,6 +1,6 @@
 // CONFIGURATION: Enter your confirmed WhatsApp Business number, including country code, digits only.
 // Example format: 919876543210 (not an actual store number).
-const WHATSAPP_NUMBER = '';
+const WHATSAPP_NUMBER = '918148873436';
 const products = [
  {name:'Sporty Ride-on Car',type:'cars',emoji:'🏎️',badge:'BATTERY RIDE-ON',description:'Sporty styling and big smiles for young drivers.'},
  {name:'Adventure 4×4 Jeep',type:'jeeps',emoji:'🚙',badge:'ADVENTURE SERIES',description:'Explore our exciting kids electric jeep collection.'},
